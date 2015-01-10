@@ -1,0 +1,25 @@
+{
+  "name": "js-template-node",
+  "version": "0.0.1",
+  "description": "Standard node project setup",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.10.2",
+    "gulp": "^3.8.10",
+    "gulp-eslint": "git+https://github.com/jlandure/gulp-eslint.git#head",
+    "gulp-shell": "^0.2.11",
+    "jasmine": "^2.1.1",
+    "require-dir": "^0.1.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "jasmine": true,
+      "node": true
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerry Power <gerry@thepowerhouse.com>"
+}

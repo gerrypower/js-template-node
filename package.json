@@ -2,7 +2,7 @@
   "name": "js-template-node",
   "version": "0.0.1",
   "description": "Standard node project setup",
-  "main": "index.js",
+  "main": "module-name.js",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^0.10.2",

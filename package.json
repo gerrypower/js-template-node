@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A node, gulp, testing starter project",
   "main": "module-name.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/gerrypower/js-template-node.git"
+  }
   "dependencies": {
   },
   "devDependencies": {

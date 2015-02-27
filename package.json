@@ -3,23 +3,22 @@
   "version": "0.0.1",
   "description": "A node, gulp, testing starter project",
   "main": "module-name.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/gerrypower/js-template-node.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gerrypower/js-template-node.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": ">=0.10.2",
-    "frisby": "vlucas/frisby.git#head",
+    "frisby": "vlucas/frisby.git#c266eeaf07c1e1cbac41623f64984e35355db5e4",
     "gulp": ">=3.8.11",
-    "gulp-eslint": "adametry/gulp-eslint.git#head",
+    "gulp-eslint": "^0.5.0",
     "gulp-shell": ">=0.2.11",
     "jasmine": "2.x",
     "require-dir": ">=0.1.0"
   },
-  "engines" : {
-    "node" : "^0.12.0"
+  "engines": {
+    "node": "^0.12.0"
   },
   "eslintConfig": {
     "env": {

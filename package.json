@@ -11,9 +11,9 @@
   },
   "devDependencies": {
     "eslint": ">=0.10.2",
-    "frisby": "git://github.com/vlucas/frisby.git#head",
+    "frisby": "vlucas/frisby.git#head",
     "gulp": ">=3.8.11",
-    "gulp-eslint": "git://github.com/adametry/gulp-eslint.git#head",
+    "gulp-eslint": "adametry/gulp-eslint.git#head",
     "gulp-shell": ">=0.2.11",
     "jasmine": "2.x",
     "require-dir": ">=0.1.0"

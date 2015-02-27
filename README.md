@@ -1,5 +1,6 @@
 ## Status
 [![Build Status](https://travis-ci.org/gerrypower/js-template-node.svg)](https://travis-ci.org/gerrypower/js-template-node)
+[![Dependency Status](https://gemnasium.com/gerrypower/js-template-node.svg)](https://gemnasium.com/gerrypower/js-template-node)
 
 ## Todo
 

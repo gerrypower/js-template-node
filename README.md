@@ -1,3 +1,6 @@
+## Status
+[![Build Status](https://travis-ci.org/gerrypower/js-template-node.svg)](https://travis-ci.org/gerrypower/js-template-node)
+
 ## Todo
 
 ### References

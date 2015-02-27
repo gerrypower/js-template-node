@@ -1,16 +1,21 @@
 {
-  "name": "js-template-node",
+  "name": "module-name",
   "version": "0.0.1",
-  "description": "Standard node project setup",
+  "description": "A node, gulp, testing starter project",
   "main": "module-name.js",
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
-    "eslint": "^0.10.2",
-    "gulp": "^3.8.10",
-    "gulp-eslint": "git+https://github.com/jlandure/gulp-eslint.git#head",
-    "gulp-shell": "^0.2.11",
-    "jasmine": "^2.1.1",
-    "require-dir": "^0.1.0"
+    "eslint": ">=0.10.2",
+    "frisby": "git://github.com/vlucas/frisby.git#head",
+    "gulp": ">=3.8.11",
+    "gulp-eslint": "git://github.com/adametry/gulp-eslint.git#head",
+    "gulp-shell": ">=0.2.11",
+    "jasmine": "2.x",
+    "require-dir": ">=0.1.0"
+  },
+  "engines" : {
+    "node" : "^0.12.0"
   },
   "eslintConfig": {
     "env": {
@@ -19,7 +24,8 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
+  "private": true,
   "author": "Gerry Power <gerry@thepowerhouse.com>"
 }

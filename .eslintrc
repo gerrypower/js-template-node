@@ -22,7 +22,9 @@
     quotes: [2, "single", "avoid-escape"],
     semi: [2, "always"],
     space-after-keywords: [2, "always"],
-    space-in-brackets: [2, "never"],
-    space-unary-ops: [1, { words: true, nonwords: false }]
+    object-curly-spacing: [2, "never"],
+    array-bracket-spacing: [2, "never"],
+    space-unary-ops: [1, { words: true, nonwords: false }],
+    strict: [2, "global"]
   }
 }

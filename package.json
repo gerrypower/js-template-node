@@ -9,10 +9,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": ">=0.20.0",
+    "eslint": "^1.6.0",
     "frisby": "^0.8.5",
+    "globby": "^3.0.1",
     "gulp": ">=3.8.11",
-    "gulp-eslint": "^1.0.0",
     "gulp-shell": ">=0.2.11",
     "jasmine": "2.x",
     "require-dir": ">=0.2.0"
